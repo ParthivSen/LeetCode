@@ -1,10 +1,6 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        if(s== "")
-            return 0;
-        if(s.length() == 1)
-            return 1;
         map<char , int> m;
         int i  = 0 , j  =0 ;
         int ans = 0 ;
